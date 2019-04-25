@@ -9,3 +9,5 @@ Client Id: f4613dae-c0ab-4e7b-95fe-858665c6b1a0
 Scope: https://herbiedv0b2c.onmicrosoft.com/TelematicsServices/read_write
 
 Client Authentication: Send Client Credentials in Body
+
+Call url: http://localhost:5000/api/values
