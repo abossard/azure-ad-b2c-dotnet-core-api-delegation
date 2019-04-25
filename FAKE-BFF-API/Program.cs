@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace API
+namespace FAKE_BFF_API
 {
     public class Program
     {
@@ -19,8 +19,6 @@ namespace API
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseKestrel()
-                .UseUrls("http://localhost:4242")
                 .UseStartup<Startup>();
     }
 }
